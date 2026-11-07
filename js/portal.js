@@ -989,28 +989,76 @@ window.openReader = function(url, title) {
 // Curated YouTube Videos & Custom Indexing
 const DEFAULT_VIDEOS = [
   {
-    id: "r1p60pWc3q8",
-    categoria: "GLP-1 & Fibras",
-    titulo: "Como Ativar o GLP-1 Naturalmente Sem Medicamentos",
-    desc: "Aprenda como fibras solúveis (como chia e psyllium) ativam os receptores do hormônio da saciedade."
+    "id": "BzjJelvzkXA",
+    "categoria": "🧪 Shots & Dicas Matinais",
+    "titulo": "SÓ 1 por DIA para PERDER BARRIGA, DESINFLAMAR, TER ENERGIA E MAIS SAÚDE!",
+    "desc": "Aprenda a fazer o shot matinal anti-inflamatório com cúrcuma, gengibre e limão."
   },
   {
-    id: "gNkJ9-5Zt58",
-    categoria: "Insulina & Metabolismo",
-    titulo: "O Segredo da Insulina: Por Que Você Não Emagrece",
-    desc: "Entenda o impacto dos picos de insulina no armazenamento de gordura visceral e na inflamação."
+    "id": "DdezYRbo2WA",
+    "categoria": "🧪 Shots & Dicas Matinais",
+    "titulo": "VINAGRE DE MAÇÃ, DIABETES e AÇÚCAR NO SANGUE - O que você PRECISA SABER!",
+    "desc": "Como o vinagre de maçã antes do almoço e jantar amortece o pico de glicose e insulina."
   },
   {
-    id: "1cW1vH12nls",
-    categoria: "Shots & Preparo",
-    titulo: "Preparo Prático: Gel de Chia e Shots Matinais Anti-inflamatórios",
-    desc: "Demonstração rápida de como preparar o Gel Grego, cúrcuma com pimenta e vinagre de maçã."
+    "id": "QNcrFdec-jI",
+    "categoria": "🧬 Insulina & GLP-1",
+    "titulo": "Estimule o GLP-1 de forma natural!!",
+    "desc": "A ciência de como fibras e gorduras boas ativam a liberação do hormônio da saciedade."
   },
   {
-    id: "V_BwR9q3Vtw",
-    categoria: "Organização",
-    titulo: "Meal Prep: Cozinhe em 1 Hora para a Semana Inteira",
-    desc: "Estratégia prática para manter a rotina alimentar sem cair em tentações ou improvisos."
+    "id": "M6LMRMbec18",
+    "categoria": "🧬 Insulina & GLP-1",
+    "titulo": "A Ordem do que você come importa!",
+    "desc": "Comer fibras e proteínas antes dos carboidratos reduz o pico glicêmico drasticamente."
+  },
+  {
+    "id": "NSi3lBuxcVc",
+    "categoria": "🧬 Insulina & GLP-1",
+    "titulo": "Resistência a insulina - tem como reverter?",
+    "desc": "Como desinflamar o organismo e melhorar a sensibilidade à insulina com alimentação inteligente."
+  },
+  {
+    "id": "YTUxPeM1J8M",
+    "categoria": "🌱 Preparo dos 3 Segredos",
+    "titulo": "5 ERROS ao HIDRATAR CHIA que PODEM AFETAR sua SAÚDE — Entenda o MOTIVO",
+    "desc": "O passo a passo para hidratar a chia e formar o gel protetor gástrico (Segredo 1)."
+  },
+  {
+    "id": "89xxbGHOZvg",
+    "categoria": "🌱 Preparo dos 3 Segredos",
+    "titulo": "PSYLLIUM TODO DIA - 10 FORMAS DE USAR que você VAI AMAR! Benefícios, Dicas e Receitas",
+    "desc": "Como usar o psyllium em pó com cacau para criar a barreira intestinal contra açúcares."
+  },
+  {
+    "id": "6AMfFQor4VY",
+    "categoria": "🌱 Preparo dos 3 Segredos",
+    "titulo": "Quais os benefícios da linhaça dourada ou marrom | Dr Juliano Teles",
+    "desc": "As propriedades das lignanas da linhaça para equilíbrio hormonal e redução do inchaço."
+  },
+  {
+    "id": "1eQTSHetijs",
+    "categoria": "🥤 Sucos & Shakes Detox",
+    "titulo": "Comece o Ano mais Leve e Saudável, Suco de Couve com Limão!",
+    "desc": "Receita rápida de suco verde rico em compostos sulfurados para suporte hepático matinal."
+  },
+  {
+    "id": "-aYIBdBWkpw",
+    "categoria": "🥤 Sucos & Shakes Detox",
+    "titulo": "SHAKE DE CACAU SAUDÁVEL E FÁCIL! Receita Fit Sem Açúcar e Cremosa!",
+    "desc": "Opção nutritiva e proteica para café da manhã ou lanche que mantém a saciedade por horas."
+  },
+  {
+    "id": "0nUZf3knQVM",
+    "categoria": "🍓 Sobremesas Sem Açúcar",
+    "titulo": "Mousse de Abacate com Cacau sem Leite, Ovos e Gelatina | Cook'n Enjoy #267",
+    "desc": "Cremoso, saboroso e rico em ácido oleico funcional sem causar picos de insulina."
+  },
+  {
+    "id": "gcbW9oz07GY",
+    "categoria": "🍓 Sobremesas Sem Açúcar",
+    "titulo": "BOLO DE AVEIA COM MAÇÃ INTEGRAL DE LIQUIDIFICADOR",
+    "desc": "Sobremesa reconfortante de baixa carga glicêmica com pectina e beta-glucana."
   }
 ];
 
@@ -1019,13 +1067,17 @@ function getVideosList() {
   return [...DEFAULT_VIDEOS, ...custom];
 }
 
-function renderVideos() {
+let currentVideoFilter = 'all';
+
+function renderVideos(filterCat = currentVideoFilter) {
+  currentVideoFilter = filterCat;
   const grid = document.getElementById('videosGrid');
   if (!grid) return;
   grid.innerHTML = '';
 
   const videos = getVideosList();
   videos.forEach((v, idx) => {
+    if (filterCat !== 'all' && v.categoria !== filterCat) return;
     const card = document.createElement('div');
     card.className = 'video-card';
     const isCustom = idx >= DEFAULT_VIDEOS.length;
@@ -1098,4 +1150,11 @@ window.removeCustomVideo = function(customIdx) {
     localStorage.setItem('cs_custom_videos', JSON.stringify(custom));
     renderVideos();
   }
+};
+
+
+window.filterVideos = function(cat, btn) {
+  document.querySelectorAll('#videos .pill-filter').forEach(p => p.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  renderVideos(cat);
 };

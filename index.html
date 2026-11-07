@@ -145,6 +145,17 @@
           <span>➕</span> Adicionar Vídeo
         </button>
       </div>
+
+      <!-- Filtros de Categorias de Vídeos -->
+      <div class="week-filters" style="margin-bottom: 20px;">
+        <button class="pill-filter active" onclick="filterVideos('all', this)">Todos os Vídeos</button>
+        <button class="pill-filter" onclick="filterVideos('🧪 Shots & Dicas Matinais', this)">🧪 Shots & Dicas</button>
+        <button class="pill-filter" onclick="filterVideos('🧬 Insulina & GLP-1', this)">🧬 Insulina & GLP-1</button>
+        <button class="pill-filter" onclick="filterVideos('🌱 Preparo dos 3 Segredos', this)">🌱 3 Segredos</button>
+        <button class="pill-filter" onclick="filterVideos('🥤 Sucos & Shakes Detox', this)">🥤 Sucos & Shakes</button>
+        <button class="pill-filter" onclick="filterVideos('🍓 Sobremesas Sem Açúcar', this)">🍓 Sobremesas</button>
+      </div>
+
       <div class="videos-grid" id="videosGrid">
         <!-- Renderizado dinamicamente pelo portal.js -->
       </div>
