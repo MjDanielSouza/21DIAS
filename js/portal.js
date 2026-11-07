@@ -732,6 +732,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderShoppingList();
   renderGifts();
   renderProtocols();
+  renderVideos();
   updateProgress();
   initModal();
 });
@@ -982,4 +983,119 @@ window.openReader = function(url, title) {
   if (frame) frame.src = url;
   if (newTabBtn) newTabBtn.href = url;
   if (overlay) overlay.classList.add('active');
+};
+
+
+// Curated YouTube Videos & Custom Indexing
+const DEFAULT_VIDEOS = [
+  {
+    id: "r1p60pWc3q8",
+    categoria: "GLP-1 & Fibras",
+    titulo: "Como Ativar o GLP-1 Naturalmente Sem Medicamentos",
+    desc: "Aprenda como fibras solúveis (como chia e psyllium) ativam os receptores do hormônio da saciedade."
+  },
+  {
+    id: "gNkJ9-5Zt58",
+    categoria: "Insulina & Metabolismo",
+    titulo: "O Segredo da Insulina: Por Que Você Não Emagrece",
+    desc: "Entenda o impacto dos picos de insulina no armazenamento de gordura visceral e na inflamação."
+  },
+  {
+    id: "1cW1vH12nls",
+    categoria: "Shots & Preparo",
+    titulo: "Preparo Prático: Gel de Chia e Shots Matinais Anti-inflamatórios",
+    desc: "Demonstração rápida de como preparar o Gel Grego, cúrcuma com pimenta e vinagre de maçã."
+  },
+  {
+    id: "V_BwR9q3Vtw",
+    categoria: "Organização",
+    titulo: "Meal Prep: Cozinhe em 1 Hora para a Semana Inteira",
+    desc: "Estratégia prática para manter a rotina alimentar sem cair em tentações ou improvisos."
+  }
+];
+
+function getVideosList() {
+  const custom = JSON.parse(localStorage.getItem('cs_custom_videos') || '[]');
+  return [...DEFAULT_VIDEOS, ...custom];
+}
+
+function renderVideos() {
+  const grid = document.getElementById('videosGrid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  const videos = getVideosList();
+  videos.forEach((v, idx) => {
+    const card = document.createElement('div');
+    card.className = 'video-card';
+    const isCustom = idx >= DEFAULT_VIDEOS.length;
+    
+    card.innerHTML = `
+      <div class="video-thumb-wrap" onclick="openVideo('${v.id}', '${v.titulo.replace(/'/g, "\'")}')">
+        <img src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${v.titulo}" onerror="this.src='https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=500&auto=format&fit=crop&q=60'">
+        <div class="play-badge">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+      </div>
+      <div class="video-info">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span class="video-category">${v.categoria || 'Aula'}</span>
+          ${isCustom ? `<button onclick="removeCustomVideo(${idx - DEFAULT_VIDEOS.length})" style="background:none; border:none; color:var(--muted); cursor:pointer; font-size:11px;">Excluir</button>` : ''}
+        </div>
+        <h3 class="video-title">${v.titulo}</h3>
+        <p class="video-desc">${v.desc || ''}</p>
+        <button class="video-btn" onclick="openVideo('${v.id}', '${v.titulo.replace(/'/g, "\'")}')">
+          <span>▶</span> Assistir no Portal
+        </button>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+window.openVideo = function(videoId, title) {
+  const overlay = document.getElementById('modalOverlay');
+  const frame = document.getElementById('modalFrame');
+  const titleEl = document.getElementById('modalTitle');
+  const newTabBtn = document.getElementById('modalNewTab');
+  
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+  const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  
+  if (titleEl) titleEl.innerText = title;
+  if (frame) frame.src = embedUrl;
+  if (newTabBtn) newTabBtn.href = watchUrl;
+  if (overlay) overlay.classList.add('active');
+};
+
+window.promptAddVideo = function() {
+  const url = prompt("Cole o link do vídeo do YouTube (ex: https://youtu.be/... ou https://www.youtube.com/watch?v=...):");
+  if (!url) return;
+  
+  const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+  const videoId = match ? match[1] : (url.trim().length === 11 ? url.trim() : null);
+  
+  if (!videoId) {
+    alert("Não foi possível identificar o ID do vídeo do YouTube.");
+    return;
+  }
+  
+  const titulo = prompt("Título do vídeo:") || "Vídeo sobre Saúde & Nutrição";
+  const categoria = prompt("Categoria (ex: Receitas, Insulina, Treino):") || "Geral";
+  const desc = prompt("Breve descrição (opcional):") || "";
+  
+  const custom = JSON.parse(localStorage.getItem('cs_custom_videos') || '[]');
+  custom.push({ id: videoId, titulo, categoria, desc });
+  localStorage.setItem('cs_custom_videos', JSON.stringify(custom));
+  
+  renderVideos();
+};
+
+window.removeCustomVideo = function(customIdx) {
+  if (confirm("Deseja remover este vídeo?")) {
+    const custom = JSON.parse(localStorage.getItem('cs_custom_videos') || '[]');
+    custom.splice(customIdx, 1);
+    localStorage.setItem('cs_custom_videos', JSON.stringify(custom));
+    renderVideos();
+  }
 };

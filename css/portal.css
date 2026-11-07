@@ -673,3 +673,140 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* Estilos para a seção de Vídeos do YouTube */
+.videos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.video-card {
+  background: var(--cream-light);
+  border: 1.5px solid var(--border-gold);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.video-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--gold);
+}
+
+.video-thumb-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.video-thumb-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.video-card:hover .video-thumb-wrap img {
+  transform: scale(1.05);
+}
+
+.play-badge {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(14, 42, 30, 0.35);
+  transition: background 0.2s;
+}
+
+.video-thumb-wrap:hover .play-badge {
+  background: rgba(14, 42, 30, 0.15);
+}
+
+.play-badge svg {
+  width: 48px;
+  height: 48px;
+  fill: #FF0000;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
+  transition: transform 0.2s;
+}
+
+.video-thumb-wrap:hover .play-badge svg {
+  transform: scale(1.15);
+}
+
+.video-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.video-category {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.video-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--green);
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.video-desc {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-bottom: 14px;
+  flex: 1;
+}
+
+.video-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--green);
+  color: var(--cream-light);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.video-btn:hover {
+  background: var(--green-soft);
+}
+
+/* Modal do Player de Vídeo */
+.video-modal-container {
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
