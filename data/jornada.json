@@ -1,0 +1,664 @@
+{
+  "dias": [
+    {
+      "dia": 1,
+      "titulo": "Dia 1",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-01.html",
+      "arquivo_premium": "dias/dia-01-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 2,
+      "titulo": "Dia 2",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-02.html",
+      "arquivo_premium": "dias/dia-02-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 3,
+      "titulo": "Dia 3",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-03.html",
+      "arquivo_premium": "dias/dia-03-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 4,
+      "titulo": "Dia 4",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-04.html",
+      "arquivo_premium": "dias/dia-04-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 5,
+      "titulo": "Dia 5",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-05.html",
+      "arquivo_premium": "dias/dia-05-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 6,
+      "titulo": "Dia 6",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-06.html",
+      "arquivo_premium": "dias/dia-06-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 7,
+      "titulo": "Dia 7",
+      "semana": "Semana 1 · Reset e Organização",
+      "arquivo": "dias/dia-07.html",
+      "arquivo_premium": "dias/dia-07-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 8,
+      "titulo": "Dia 8",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-08.html",
+      "arquivo_premium": "dias/dia-08-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 9,
+      "titulo": "Dia 9",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-09.html",
+      "arquivo_premium": "dias/dia-09-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 10,
+      "titulo": "Dia 10",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-10.html",
+      "arquivo_premium": "dias/dia-10-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 11,
+      "titulo": "Dia 11",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-11.html",
+      "arquivo_premium": "dias/dia-11-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 12,
+      "titulo": "Dia 12",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-12.html",
+      "arquivo_premium": "dias/dia-12-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 13,
+      "titulo": "Dia 13",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-13.html",
+      "arquivo_premium": "dias/dia-13-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 14,
+      "titulo": "Dia 14",
+      "semana": "Semana 2 · Ativação Hormonal",
+      "arquivo": "dias/dia-14.html",
+      "arquivo_premium": "dias/dia-14-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 15,
+      "titulo": "Dia 15",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-15.html",
+      "arquivo_premium": "dias/dia-15-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 16,
+      "titulo": "Dia 16",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-16.html",
+      "arquivo_premium": "dias/dia-16-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 17,
+      "titulo": "Dia 17",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-17.html",
+      "arquivo_premium": "dias/dia-17-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 18,
+      "titulo": "Dia 18",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-18.html",
+      "arquivo_premium": "dias/dia-18-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 19,
+      "titulo": "Dia 19",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-19.html",
+      "arquivo_premium": "dias/dia-19-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 20,
+      "titulo": "Dia 20",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-20.html",
+      "arquivo_premium": "dias/dia-20-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    },
+    {
+      "dia": 21,
+      "titulo": "Dia 21",
+      "semana": "Semana 3 · Consolidação e Ritmo",
+      "arquivo": "dias/dia-21.html",
+      "arquivo_premium": "dias/dia-21-premium.html",
+      "segredos": [
+        {
+          "nome": "Gel Grego",
+          "descricao": "A semente que vira gel no estômago"
+        },
+        {
+          "nome": "Achocolatado da Insulina",
+          "descricao": "Parece doce. Age como remédio."
+        },
+        {
+          "nome": "Ativador Hormonal",
+          "descricao": "O segredo das mulheres que não incham"
+        }
+      ],
+      "dicas": [
+        "A chia absorve líquido e forma um gel que deixa o açúcar entrar no sangue bem mais devagar. Menos pico de insulina depois de comer.",
+        "O psyllium forma uma camada no intestino que deixa a absorção de açúcar mais lenta. O cacau puro ajuda as células a receber glicose com menos insulina.",
+        "A linhaça dourada ajuda a equilibrar os hormônios femininos que causam retenção de líquido e vontade de doce. O gengibre ativa a queima de açúcar nos músculos."
+      ]
+    }
+  ],
+  "protocolos": [
+    {
+      "num": 1,
+      "titulo": "Manhã Turbo",
+      "descricao": "Desperte seu metabolismo logo cedo e evite picos de fome",
+      "arquivo": "materiais/protocolos/protocolo-01-manha.html",
+      "icone": "☀️"
+    },
+    {
+      "num": 2,
+      "titulo": "Noite Reparadora",
+      "descricao": "Rotina noturna para queimar gordura durante o sono",
+      "arquivo": "materiais/protocolos/protocolo-02-noite.html",
+      "icone": "🌙"
+    },
+    {
+      "num": 3,
+      "titulo": "Festas & Eventos",
+      "descricao": "Como comer em casamentos, churrascos e aniversários sem culpa",
+      "arquivo": "materiais/protocolos/protocolo-03-festa.html",
+      "icone": "🎉"
+    },
+    {
+      "num": 4,
+      "titulo": "Viagens & Férias",
+      "descricao": "Mantenha o resultado mesmo em hotel, avião ou estrada",
+      "arquivo": "materiais/protocolos/protocolo-04-viagem.html",
+      "icone": "✈️"
+    },
+    {
+      "num": 5,
+      "titulo": "Recebendo Visitas",
+      "descricao": "Sirva delícias sem sabotar a sua evolução nem passar aperto",
+      "arquivo": "materiais/protocolos/protocolo-05-visita.html",
+      "icone": "👥"
+    },
+    {
+      "num": 6,
+      "titulo": "Preguiça & Cansaço",
+      "descricao": "O plano de emergência de 3 minutos para dias exaustivos",
+      "arquivo": "materiais/protocolos/protocolo-06-preguica-cansaco.html",
+      "icone": "⚡"
+    },
+    {
+      "num": 7,
+      "titulo": "Marmitas da Semana",
+      "descricao": "Guia prático para cozinhar em 1 hora para a semana inteira",
+      "arquivo": "materiais/protocolos/protocolo-07-marmita.html",
+      "icone": "🍱"
+    },
+    {
+      "num": 8,
+      "titulo": "Fim de Semana",
+      "descricao": "Aproveite o sábado e domingo sem acumular gordura",
+      "arquivo": "materiais/protocolos/protocolo-08-fim-de-semana.html",
+      "icone": "🏖️"
+    },
+    {
+      "num": 9,
+      "titulo": "TPM & Ciclo",
+      "descricao": "Controle a compulsão por doce e o inchaço hormonal",
+      "arquivo": "materiais/protocolos/protocolo-09-tpm-ciclo.html",
+      "icone": "🌸"
+    },
+    {
+      "num": 10,
+      "titulo": "Estresse & Ansiedade",
+      "descricao": "Reduza o cortisol para destravar a queima de gordura",
+      "arquivo": "materiais/protocolos/protocolo-10-estresse-ansiedade.html",
+      "icone": "🧘"
+    }
+  ],
+  "presentes": [
+    {
+      "titulo": "Shakes Emagrecedores",
+      "subtitulo": "Substitutos práticos e saborosos com baixa carga glicêmica",
+      "arquivo": "presentes/shakes-emagrecedores.pdf",
+      "tipo": "PDF",
+      "tamanho": "1.4 MB",
+      "icone": "🥤"
+    },
+    {
+      "titulo": "Receitas Detox",
+      "subtitulo": "Sucos, caldos e preparações para desinchar rápido",
+      "arquivo": "presentes/receitas-detox.pdf",
+      "tipo": "PDF",
+      "tamanho": "2.6 MB",
+      "icone": "🥒"
+    },
+    {
+      "titulo": "Sobremesas para o Metabolismo",
+      "subtitulo": "Doces funcionais que não ativam o pico de insulina",
+      "arquivo": "presentes/sobremesas-metabolismo.pdf",
+      "tipo": "PDF",
+      "tamanho": "2.2 MB",
+      "icone": "🍓"
+    },
+    {
+      "titulo": "Soro da Magreza & Chás",
+      "subtitulo": "Infusões anti-inflamatórias e aceleradoras de queima",
+      "arquivo": "presentes/soro-da-magreza-chas.pdf",
+      "tipo": "PDF",
+      "tamanho": "1.1 MB",
+      "icone": "🍵"
+    },
+    {
+      "titulo": "10 Dicas para Acelerar",
+      "subtitulo": "Estratégias avançadas para multiplicar seus resultados",
+      "arquivo": "presentes/dicas-acelerar-resultado.pdf",
+      "tipo": "PDF",
+      "tamanho": "1.6 MB",
+      "icone": "⚡"
+    }
+  ]
+}

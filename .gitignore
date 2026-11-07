@@ -1,0 +1,12 @@
+# Credenciais e sessões locais
+chrome_profile/
+auth_state.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
